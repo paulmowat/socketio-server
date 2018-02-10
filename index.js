@@ -3,7 +3,7 @@ var io = require('socket.io')
 var express = require('express')
 
 // Deal with event emitting
-var events = require('events'),
+var events = require('events')
 var serverEmitter = new events.EventEmitter()
 
 // Start up express server
